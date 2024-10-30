@@ -32,7 +32,7 @@ class TitleRefRole(SphinxRole):
         node = nodes.raw(text=bibfiles[bib_id].fields['title'], format='html')
         return [node], []
 
-extensions = ['sphinxcontrib.bibtex', 'sphinx_add_text']
+extensions = ['sphinxcontrib.bibtex', 'sphinx_add_text', 'sphinxcontrib.pseudocode']
 bibtex_bibfiles = ['paper.bib']
 bibtex_default_style = 'unsrt'
 

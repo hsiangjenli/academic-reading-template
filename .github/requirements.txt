@@ -1,2 +1,3 @@
 sphinx-book-theme
 sphinxcontrib-bibtex
+git+https://github.com/victorapostol/sphinxcontrib-pseudocode.git

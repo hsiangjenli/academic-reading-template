@@ -20,7 +20,7 @@ help:
 	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
 image:
-	docker buildx build --platform linux/amd64  -t hsiangjenli/sphinx-doc:paper-digest .github
+	docker buildx build --platform linux/amd64  -t hsiangjenli/sphinx-doc:paper-digest-2024-10-30 .github
 
 run:
-	docker run -it --rm -v "$(PWD):/docs" hsiangjenli/sphinx-doc:paper-digest make html
+	docker run -it --rm -v "$(PWD):/docs" hsiangjenli/sphinx-doc:paper-digest-2024-10-30 make html
