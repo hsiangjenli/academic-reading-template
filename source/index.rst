@@ -12,6 +12,7 @@ Paper Digest
    :maxdepth: 1
 
    paper/*
+   terminology
 
 .. pcode::
    :linenos:
