@@ -14,6 +14,9 @@ Paper Digest
    paper/*
    terminology
 
+
+Pseudocode
+----------
 .. pcode::
    :linenos:
 
@@ -42,3 +45,10 @@ Paper Digest
     \ENDPROCEDURE
     \end{algorithmic}
     \end{algorithm}
+
+
+MarkMap
+-------
+.. raw:: html
+
+   <iframe src="_static/markmap/demo.html" width="100%" height="500px"></iframe>
