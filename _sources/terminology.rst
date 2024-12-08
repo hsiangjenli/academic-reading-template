@@ -13,3 +13,8 @@ Terminology
      - Autonomic Computing Initiative
      - Todo.
    
+
+References
+----------
+.. bibliography::
+    :filter: docname in docnames
